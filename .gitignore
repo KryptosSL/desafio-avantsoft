@@ -1,0 +1,57 @@
+# Laravel padrão
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+.env
+.env.*
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+/.vagrant
+/.idea
+/.DS_Store
+Thumbs.db
+
+# Cache do Laravel
+bootstrap/cache/*.php
+!bootstrap/cache/.gitignore
+
+# Logs e arquivos temporários
+/storage/logs/*.log
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/testing/*
+/storage/framework/views/*
+!/storage/logs/.gitignore
+!/storage/framework/cache/.gitignore
+!/storage/framework/sessions/.gitignore
+!/storage/framework/testing/.gitignore
+!/storage/framework/views/.gitignore
+
+# IDEs e editores
+*.sublime-project
+*.sublime-workspace
+.vscode/
+*.code-workspace
+
+# Sistema Operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de deploy ou build
+npm-debug.log
+yarn-error.log
+composer.lock
+
+# Docker (caso esteja usando)
+docker-compose.override.yml
+
+# Teste e cobertura
+coverage/
+.phpunit.cache
+
+# Arquivos de ambiente locais
+.env.local
+.env.backup
+.env.testing
